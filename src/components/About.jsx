@@ -45,7 +45,7 @@ export function About() {
           <p className="leading-relaxed mb-4 text-sm"
              style={{ color: `${COLORS.cream}88`, fontFamily: "'DM Sans', sans-serif" }}>
             Student Café started with one simple idea — great food shouldn't break the bank. We serve
-            piping-hot, freshly-made meals that fuel long study sessions, late-night craving runs,
+            piping-hot, freshly-mad e meals that fuel long study sessions, late-night craving runs,
             and everything in between.
           </p>
           <p className="leading-relaxed mb-8 text-sm"

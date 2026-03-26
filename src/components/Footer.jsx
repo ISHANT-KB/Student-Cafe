@@ -4,9 +4,9 @@ import { COLORS } from "../data/constants";
 export function Footer() {
   const footerLinks = [["About","#about"],["Menu","#menu"],["Gallery","#gallery"],["Contact","#contact"]];
   const infoRows = [
-    ["📧","hello@studentcafe.in","mailto:hello@studentcafe.in"],
-    ["📞","+91 98765 43210","tel:+919876543210"],
-    ["📸","@studentcafe_bhopal","https://instagram.com/studentcafe_bhopal"],
+    ["📧","[EMAIL_ADDRESS]","mailto:[EMAIL_ADDRESS]"],
+    ["📞","+91 xxxxx xxxxx","tel:+91xxxxxxxxxx"],
+    ["📸","@studentcafe_bilaspur","https://instagram.com/studentcafe_bilaspur"],
     ["🕐","Mon–Sun: 8 AM – 10 PM", null],
   ];
 
@@ -89,7 +89,7 @@ export function Footer() {
 
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-xs"
              style={{ color: `${COLORS.cream}44`, fontFamily: "'DM Sans', sans-serif" }}>
-          <p>© 2025 Student Café, Bhopal. All rights reserved.</p>
+          <p>© 2025 Student Café, Bilaspur. All rights reserved.</p>
           <p>Made with ☕ & ❤️ for students</p>
         </div>
 
