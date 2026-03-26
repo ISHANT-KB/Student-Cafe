@@ -1,18 +1,66 @@
-# React + Vite
+# Student Café
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fast, and fully responsive website for **Student Café**, built with **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## Features
+- **Beautiful UI**: Modern aesthetics with smooth animations and transitions using internal CSS keyframes and global styles.
+- **Component-Driven Architecture**: Clean, scalable folder structure separating atoms, features, hooks, and constants.
+- **Responsive**: Fully optimized for mobile, tablet, and desktop viewing.
+- **No External UI Libraries**: Custom-built UI components utilizing Tailwind classes and styled-inline variables.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Getting Started
 
-## React Compiler
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Installation
 
-Note: This will impact Vite dev & build performances.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ISHANT-KB/Student-Cafe.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd Student-cafe
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+### Running Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To start the development server, run:
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173/`.
+
+### Building for Production
+
+To create an optimized production build, run:
+```bash
+npm run build
+```
+
+This will output the compiled assets to the `dist` folder.
+
+## Folder Structure
+```
+src/
+├── components/   # Modular React components organized by feature
+├── hooks/        # Custom React hooks (useInView, useScrollProgress, etc)
+├── data/         # Constants, menus, and text data
+├── pages/        # Page-level components
+├── App.jsx       # Root App component
+└── main.jsx      # React entry point
+```
+
+## Technologies Used
+- React 19
+- Vite
+- Tailwind CSS
+
+## Author
+[ISHANT-KB](https://github.com/ISHANT-KB)

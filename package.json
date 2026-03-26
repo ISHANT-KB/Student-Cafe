@@ -1,7 +1,9 @@
 {
-  "name": "student-cafe",
+  "name": "student-cafe-website",
+  "version": "1.0.0",
+  "description": "A modern, fast, and fully responsive website for Student Café",
+  "author": "ISHANT-KB",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
